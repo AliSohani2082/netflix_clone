@@ -1,6 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
+  '@next-auth/prisma-adapter': ^1.0.5
   '@prisma/client': ^4.12.0
   '@types/bcrypt': ^5.0.0
   '@types/node': 18.15.11
@@ -17,10 +18,12 @@ specifiers:
   prisma: ^4.12.0
   react: 18.2.0
   react-dom: 18.2.0
+  react-icons: ^4.8.0
   tailwindcss: ^3.3.1
   typescript: 5.0.4
 
 dependencies:
+  '@next-auth/prisma-adapter': 1.0.5_st7dss3oib5ulp5imon7ru3qzu
   '@prisma/client': 4.12.0_prisma@4.12.0
   '@types/node': 18.15.11
   '@types/react': 18.0.35
@@ -34,6 +37,7 @@ dependencies:
   prisma: 4.12.0
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
+  react-icons: 4.8.0_react@18.2.0
   typescript: 5.0.4
 
 devDependencies:
@@ -158,6 +162,16 @@ packages:
     transitivePeerDependencies:
       - encoding
       - supports-color
+    dev: false
+
+  /@next-auth/prisma-adapter/1.0.5_st7dss3oib5ulp5imon7ru3qzu:
+    resolution: {integrity: sha512-VqMS11IxPXrPGXw6Oul6jcyS/n8GLOWzRMrPr3EMdtD6eOalM6zz05j08PcNiis8QzkfuYnCv49OvufTuaEwYQ==}
+    peerDependencies:
+      '@prisma/client': '>=2.26.0 || >=3'
+      next-auth: ^4
+    dependencies:
+      '@prisma/client': 4.12.0_prisma@4.12.0
+      next-auth: 4.22.0_yucv4tfv7v7nrkw2uguegj6e7e
     dev: false
 
   /@next/env/13.3.0:
@@ -2409,6 +2423,14 @@ packages:
       loose-envify: 1.4.0
       react: 18.2.0
       scheduler: 0.23.0
+    dev: false
+
+  /react-icons/4.8.0_react@18.2.0:
+    resolution: {integrity: sha512-N6+kOLcihDiAnj5Czu637waJqSnwlMNROzVZMhfX68V/9bu9qHaMIJC4UdozWoOk57gahFCNHwVvWzm0MTzRjg==}
+    peerDependencies:
+      react: '*'
+    dependencies:
+      react: 18.2.0
     dev: false
 
   /react-is/16.13.1:
